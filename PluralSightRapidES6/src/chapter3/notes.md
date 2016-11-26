@@ -1,7 +1,8 @@
 #New ES6 Syntax
 
 ##Rest Operator
-```
+
+```javascript
 var showCategories = function (productId, ...categories) {
     console.log(categories instanceof Array);
 };
@@ -9,7 +10,8 @@ var showCategories = function (productId, ...categories) {
  - In this example, `...categories` is the Rest Operator
  
 ##Spread Operator
-```
+
+```javascript
 var prices = [12, 20, 18];
 var maxPrice = Math.max(...prices);
 ```
